@@ -1,0 +1,184 @@
+- title: Electronic Materials
+  courseID: MS2090
+  credits: 2
+  contents: testsdasd
+
+- title: Metallography Lab
+  courseID: MS1011
+  credits:
+  contents: dsf
+
+- title: Materials Synthesis Lab
+  courseID: MS1021
+  credits:
+  contents: sdf
+
+- title: Metallic Materials
+  courseID: MS1020
+  credits:
+  contents: fs
+
+- title: Materials Characterization-I
+  courseID: MS1030
+  credits:
+  contents: sdf
+
+- title: Semiconductor materials
+  courseID: MS1070
+  credits:
+  contents: fsdf
+
+- title: Soft Matter Science
+  courseID: MS2010
+  credits:
+  contents: fsdf
+
+- title: Functional Properties Characterization Lab
+  courseID: MS2011
+  credits:
+  contents: fsdf
+
+- title: Physical Metallurgy
+  courseID: MS2020
+  credits:
+  contents: fsdf
+
+- title: Process Metallurgy
+  courseID: MS2080
+  credits:
+  contents: fsdf
+
+- title:  Functional and Structural polymers
+  courseID: MS2060
+  credits:
+  contents: fsdf
+
+- title: Materials Characterization II
+  courseID: MS2030
+  credits:
+  contents: fsdf
+
+- title:  Electronic Materials
+  courseID: MS2090
+  credits:
+  contents: fsdf
+
+- title: Advanced Materials Synthesis
+  courseID: MS2040
+  credits:
+  contents: fsdf
+
+- title:  Mechanical Behaviour of Materials
+  courseID: MS2050
+  credits:
+  contents: fsdf
+
+- title: Non-Ferrous extractive metallurgy
+  courseID: MS3030
+  credits:
+  contents: fsdf
+
+- title: Iron making & Steel Making
+  courseID: MS3270
+  credits:
+  contents: fsdf
+
+- title: Powder Metallurgy Processing
+  courseID: MS3280
+  credits:
+  contents: fsdf
+
+- title:  Phase Equilibria
+  courseID: MS3090
+  credits:
+  contents: fsdf
+
+- title: Kinetics of Materials
+  courseID: MS3100
+  credits:
+  contents: fsdf
+
+- title:  Mechanical Behaviour Lab
+  courseID: MS2021
+  credits:
+  contents: fsdf
+
+- title: Foundry and solidification Lab
+  courseID: MS3021
+  credits:
+  contents: fsdf
+
+- title: Casting and solidification
+  courseID: MS3020
+  credits:
+  contents: fsdf
+
+- title: Magnetic Materials
+  courseID: MS3010
+  credits:
+  contents: fsdf
+
+- title: Transport phenomena
+  courseID:   MS3110
+  credits:
+  contents: fsdf
+
+- title: Phase Transformations
+  courseID:     MS3120
+  credits:
+  contents: fsdf
+
+- title: Technical communication
+  courseID:       MS3140
+  credits:
+  contents: fsdf
+
+- title: Corrosion
+  courseID: MS3150
+  credits:
+  contents: fsdf
+
+- title: Thin Films
+  courseID:   MS3040
+  credits:
+  contents: fsdf
+
+- title: Heat Treatment Lab
+  courseID:     MS3011
+  credits:
+  contents: fsdf
+
+- title: Mini Project
+  courseID:       MS3015
+  credits:
+  contents: fsdf
+
+- title: Research methodology
+  courseID:         MS4020
+  credits:
+  contents: fsdf
+
+- title:  Materials Selection and design
+  courseID:           MS4030
+  credits:
+  contents: fsdf
+
+- title:  Metal Forming Lab
+  courseID:             MS4011
+  credits:
+  contents: fsdf
+
+- title:  Fracture and Fatigue
+  courseID: MS4050
+  credits:
+  contents: fsdf
+
+- title: Thermo-mechanical Processing
+  courseID: MS4060
+  credits:
+  contents: fsdf
+
+- title:  Seminar
+  courseID: MS4016
+  credits:
+  contents: fsdf

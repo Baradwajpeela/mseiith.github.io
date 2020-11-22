@@ -1,0 +1,28 @@
+---
+title: "Faculty"
+layout: post
+display: true
+---
+<div class="container-fluid">
+  {% for facMem in site.data.faculty %}
+    {% cycle '<div class="row no-top-margin">', '' %}
+        <div class="col-sm-12 col-md-12 faculty-col">
+          <div class="row">
+            <div class="col-sm-2">
+              <img class="faculty-img" src="..{{ facMem.imgsrc }}" alt="Picture of the Faculty Member">
+            </div>
+            <div class="col-sm-10">
+              <a href="{{ facMem.profileLink }}" target="_blank" class="faculty-link"><h3>{{ facMem.name }}</h3></a>
+              <h4>{{ facMem.designation }}</h4>
+              <h5><strong>Research interests:</strong> {{ facMem.researchInterests }}</h5>
+              <h5><strong>Office:</strong> {{ facMem.office }}</h5>
+              <h5><i class="fa fa-envelope"></i>  <a href="mailto:{{ facMem.email }}">{{ facMem.email }}</a></h5>
+              <h5> <i class="fa fa-phone"></i> +91 (40) 2301 {{ facMem.phone }}</h5>
+              <h5><strong><a href="{{ facMem.profileLink }}" target="_blank" class="faculty-link">Profile Link</a></strong></h5>
+
+            </div>
+          </div>
+        </div>
+      {% cycle '', '</div>' %}
+  {% endfor %}
+</div>

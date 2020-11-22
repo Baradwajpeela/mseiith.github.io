@@ -1,0 +1,14 @@
+---
+---
+/*
+Add path to the custom css in _includes/css/ here.
+*/
+
+{% include css/news_talks.css %}
+{% include css/publications.css %}
+{% include css/sidebar.css %}
+{% include css/research_areas.css %}
+{% include css/overall.css %}
+{% include css/banner.css %}
+{% include css/people.css %}
+{% include css/search.css %}

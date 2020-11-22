@@ -1,0 +1,29 @@
+---
+title: "Staff"
+layout: post
+display: true
+---
+
+<div class="container-fluid">
+  {% for staffMem in site.data.staff %}
+    {% cycle '<div class="row">', '' %}
+        <div class="col-sm-12 col-md-12" style="height: inherit">
+          <div class="row">
+            <div class="col-sm-2">
+              <img class="faculty-img" src="..{{ staffMem.imgsrc }}" alt="Picture of the Staff Member">
+            </div>
+            <div class="col-sm-10">
+              <h3>{{ staffMem.name }}</h3>
+              <h4>{{ staffMem.designation }}</h4>
+              <h5><i class="fa fa-envelope"></i>  <a href="mailto:{{ staffMem.email }}">{{ staffMem.email }}</a></h5>
+              {% if staffMem.profile %}
+
+              <h5><strong><a href="{{ staffMem.profile }}" target="_blank" class="faculty-link">Profile Link</a></strong></h5>
+
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      {% cycle '', '</div>' %}
+  {% endfor %}
+</div>

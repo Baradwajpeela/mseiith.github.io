@@ -1,0 +1,15 @@
+###############################################################
+###############                                 ###############
+############### Edit this page for quick links  ###############
+###############                                 ###############
+###############################################################
+
+- name: Application open for JRF position in MSME department (Click Here)
+  url: https://iith.ac.in/assets/files/careers/staff/Advertisement_JRF_06102020.pdf
+  direct: false
+
+- name: Dr. Deepu Babu has joined the MSME department on 29 September 2020
+  direct: true
+
+- name: Seminar by Prof. Janaki Ram is scheduled for 7 August 2020
+  direct: true

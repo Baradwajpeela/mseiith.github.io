@@ -1,0 +1,90 @@
+---
+title: News & Talks
+icon: fa-newspaper-o
+order: 2
+---
+
+<div class="col-md-8 newsTalk">
+  <h2>About the department</h2>
+<div align="justify">
+<h4>The teaching and research philosophy of the department is to impart the students with the understanding of the interplay between major aspects of materials science, namely, composition, structure, processing, characterization and properties and equip them to develop innovative technologies based on sound fundamental principles. The department offers course work covering broad fields of materials science and metallurgical engineering from fundamentals to advanced and emerging areas such as nanomaterials, biomaterials, energy materials, electron microscopy, thermomechanical processing, thin films and devices, to name a few, which impart strong foundation on several major aspects of materials science and Metallurgical engineering and enhance the state of the knowledge of the students.
+</h4>
+</div>
+</div>
+
+
+<!-- <div class="col-md-4 newsTalk">
+  <header><h2>Talks</h2></header>
+    <div class="blogs_sec LatestBlog">
+    <ul>
+      {%- assign _posts = site.talks | sort: 'date' | reverse -%}
+      {%- for _post in _posts -%}
+        <li>
+          <hr>
+          <div class="icon_box">
+            <div class={%- cycle 'bott', 'top' -%}>{{- _post.date | date: "%b %d" -}}</div>
+          </div>
+          <div class="right_text"><a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a></div>
+        </li>
+        {%- if forloop.index == 5 -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    <hr>
+    </ul>
+  </div>
+  <div class="more">
+    <a href="{{ 'highlights/events-and-talks.html' | absolute_url  }}">See All</a>
+  </div>
+</div> -->
+<div class="col-md-4 newsTalk">
+
+
+  <h2>Latest News</h2>
+    <div class="blogs_sec LatestBlog">
+    <ul>
+      <hr>
+      {%- assign _posts = site.data.latest_news -%}
+      {%- for _post in _posts -%}
+        {% if _post.direct == true %}
+          <li>
+            <!-- <div class="right_text"><a href="{{- _post.link -}}" target="_blank">{{- _post.name -}}</a></div> -->
+            <div class="right_text"><a>{{- _post.name -}} </a ></div>
+
+          </li>
+        {% else %}
+          <li>
+            <div class="right_text"><a href="{{_post.url}}">{{- _post.name -}}</a></div>
+
+          </li>
+        {% endif %}
+        {%- if forloop.index == 3 -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+
+  <h2>Quick Links</h2>
+    <div class="blogs_sec LatestBlog">
+    <ul>
+      <hr>
+      {%- assign _posts = site.data.quick-links -%}
+      {%- for _post in _posts -%}
+        {% if _post.direct == true %}
+          <li>
+            <div class="right_text"><a href="{{- _post.link -}}" target="_blank">{{- _post.name -}}</a></div>
+          </li>
+        {% else %}
+          <li>
+            <div class="right_text"><a href="{{- _post.link | prepend: site.baseurl -}}">{{- _post.name -}}</a></div>
+          </li>
+        {% endif %}
+        {%- if forloop.index == 5 -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+
+</div>

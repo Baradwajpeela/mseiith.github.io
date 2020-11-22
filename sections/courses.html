@@ -1,0 +1,52 @@
+---
+title: "Courses"
+layout: post
+display: true
+---
+
+<div class="col-md-6 newsTalk">
+
+<h2>UG courses</h2>
+
+<ul>
+  {% for coursesName in site.data.courses %}
+
+
+<li><h4><strong><i>{{ coursesName.courseID }}</i></strong> &nbsp {{ coursesName.title }}</h4>
+              <!-- Contents:  {{coursesName.contents }} -->
+                </li>
+  {% endfor %}
+
+  </ul>
+
+</div>
+
+<div class="col-md-6 newsTalk">
+
+<h2>PG courses</h2>
+
+<ul>
+  {% for coursesNamePG in site.data.coursesPG %}
+
+
+<li><h4><strong><i>{{ coursesNamePG.courseID }}</i></strong> &nbsp {{ coursesNamePG.title }}</h4>
+              <!-- Contents:  {{coursesName.contents }} -->
+                </li>
+  {% endfor %}
+
+  </ul>
+
+<h2>Elective courses</h2>
+
+<ul>
+  {% for coursesNameElec in site.data.coursesElec %}
+
+
+<li><h4><strong><i>{{ coursesNameElec.courseID }}</i></strong> &nbsp {{ coursesNameElec.title }}</h4>
+              <!-- Contents:  {{coursesName.contents }} -->
+                </li>
+  {% endfor %}
+
+  </ul>
+
+</div>

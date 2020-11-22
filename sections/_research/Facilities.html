@@ -1,0 +1,51 @@
+---
+title: "Facilities"
+layout: post
+display: true
+---
+    <h2>Synthesis and processing instruments</h2>
+      <ul>
+        {% for inst in site.data.inst_synProc %}
+
+                    <li><h3>{{ inst.name }}</h3>
+                      {% if inst.email %}
+                          <h4>Faculty incharge: {{inst.incharge}} ({{inst.email}}@msme.iith.ac.in)</h4>
+                      {% endif %}</li>
+        {% endfor %}
+      </ul>
+
+
+          <h2>Furnaces</h2>
+            <ul>
+              {% for fur in site.data.inst_fur %}
+                          <li><h3>{{ fur.name }}</h3>
+                            {% if fur.email %}
+                                <h4>Faculty incharge: {{fur.incharge}} ({{fur.email}}@msme.iith.ac.in)</h4>
+                            {% endif %}</li>
+              {% endfor %}
+            </ul>
+
+
+        <h2>Functional properties characterization</h2>
+
+
+          <ul>
+            {% for funchar in site.data.inst_funchar %}
+                        <li><h3>{{ funchar.name }}</h3>
+                        {% if funchar.email %}
+                            <h4>Faculty incharge: {{funchar.incharge}} ({{funchar.email}}@msme.iith.ac.in)</h4>
+                        {% endif %}</li>
+            {% endfor %}
+          </ul>
+
+<h2>Microstructure and mechanical property analysis</h2>
+
+
+  <ul>
+    {% for instmech in site.data.inst_mechchar %}
+                <li><h3>{{ instmech.name }}</h3>
+                  {% if instmech.email %}
+                      <h4>Faculty incharge: {{instmech.incharge}} ({{instmech.email}}@msme.iith.ac.in)</h4>
+                  {% endif %}</li>
+    {% endfor %}
+  </ul>
